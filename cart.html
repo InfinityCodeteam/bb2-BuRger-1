@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BB2 Burger</title>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
-=======
 <script type="text/javascript">
         var gk_isXlsx = false;
         var gk_xlsxFileLookup = {};
@@ -57,7 +42,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BB2 Burger</title>
+  <title>السلة - BB2 Burger</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -67,44 +52,33 @@
     <div class="container flex">
       <img id="logo-img" src="" alt="BB2 Burger" width="100">
       <ul class="flex">
-        <li><a href="index.html" class="active">الرئيسية</a></li>
+        <li><a href="index.html">الرئيسية</a></li>
         <li><a href="menu.html">المنيو</a></li>
         <li><a href="favorites.html">المفضلة</a></li>
-        <li><a href="cart.html">السلة</a></li>
+        <li><a href="cart.html" class="active">السلة</a></li>
       </ul>
     </div>
   </nav>
 
-  <section class="hero">
-    <div class="banner-slider"></div>
-    <div class="hero-content">
-      <h1 class="tit">الجودة هي طعمنا المفضل</h1>
-      <a href="menu.html" class="btn btn-brand">عرض Protofolio</a>
+  <section class="container">
+    <h2 class="tit">سلة التسوق</h2>
+    <div id="cart-list" class="grid grid-1"></div>
+    <h3><span id="grand-total">0 ج</span></h3>
+    <div class="card">
+      <label>الاسم: <input id="name" type="text" required></label>
+      <label>رقم الموبايل: <input id="mobile" type="tel" required></label>
+      <label>العنوان: <input id="address" type="text" required></label>
+      <label>ملاحظات: <textarea id="notes"></textarea></label>
+      <label>طريقة الدفع:
+        <select id="payment" required>
+          <option value="كاش عند الاستلام">كاش عند الاستلام</option>
+          <option value="انستا باي">انستا باي</option>
+          <option value="فودافون كاش">فودافون كاش</option>
+          <option value="اتصالات كاش">اتصالات كاش</option>
+        </select>
+      </label>
+      <button id="whatsapp-order" class="btn btn-brand">إرسال الطلب عبر واتساب</button>
     </div>
-  </section>
-
-  <section class="container">
-    <h2 class="tit">منتجات مميزة</h2>
-    <div id="featured-grid" class="grid grid-3"></div>
-  </section>
-
-  <section class="container">
-    <h2 class="tit">تقييمات العملاء</h2>
-   <div class="card review-list">
-  <p>السماش عندهم خطير حرفياً 🤍❤</p>
-  <p>الخدمه ممتازه والاكل بيجي سخن والباكينج تحفه💕💫</p>
-  <p>اقوي تيم وناس متفاهمه ومتطورين جداً من نجاح ل نجاح 👌🤝👏🔥</p>
-</div>
-
-<div class="card review-list">
-  <p>تشيكن ملهاش مقارنه ب اي تشيكن تانيه</p>
-  <p>فعلا بتحتويني كده 😍🩶🩶</p>
-</div>
-
-<div class="card review-list">
-  <p>اقوي برجر ع الفحم في مصر💥💥🍔</p>
-</div>
-
   </section>
 
   <footer class="footer">
@@ -124,7 +98,7 @@
           <li><a href="https://www.facebook.com/share/1EhgB6LvHR/"><i class="fab fa-facebook"></i> فيسبوك</a></li>
           <li><a href="https://www.instagram.com/bb2burger?igsh=MWhuenhwcWJ4YjFqMQ=="><i class="fab fa-instagram"></i> إنستجرام</a></li>
           <li><a href="https://wa.me/201006473229"><i class="fab fa-whatsapp"></i> واتساب</a></li>
-          <li><a href="#"><i class="fas fa-globe"></i> سايت BB2</a></li>
+          <li><a href="https://system.smart-mate.co/profile/5526289899"><i class="fas fa-globe"></i> سايت BB2</a></li>
         </ul>
       </div>
       <div class="footer-column">
@@ -146,5 +120,4 @@
 
   <script src="app.js"></script>
 </body>
->>>>>>> 4c1ec539d1510cb21fd7df602a9d216f9949dad8
 </html>
