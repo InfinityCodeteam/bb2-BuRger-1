@@ -1,0 +1,50 @@
+// Fallback data used when Supabase is not configured yet
+export const FALLBACK_CATEGORIES = [
+  { id: 'a', name: 'برجر ع الفحم' },
+  { id: 'b', name: 'سماش برجر' },
+  { id: 'c', name: 'الأكيلة' },
+  { id: 'd', name: 'سندوتشات فرايد تشيكن' },
+  { id: 'e', name: 'المقبلات' },
+]
+
+export const FALLBACK_ADDONS = [
+  { id: 'mozz-sticks', name: 'موتزريلا ستيكس', price: 25 },
+  { id: 'mushroom',    name: 'مشروم',          price: 20 },
+  { id: 'jalapeno',   name: 'هاليبينو',        price: 20 },
+  { id: 'caramel-on', name: 'بصل مكرمل',       price: 20 },
+  { id: 'turkey',     name: 'تركي',            price: 30 },
+  { id: 'pepperoni',  name: 'ببروني',          price: 30 },
+  { id: 'bacon',      name: 'بيكون',           price: 30 },
+  { id: 'cheese',     name: 'جبنة',            price: 25 },
+  { id: 'tasty',      name: 'تاستي',           price: 20 },
+  { id: 'texas',      name: 'تكساس',           price: 20 },
+]
+
+export const FALLBACK_ITEMS = [
+  { id: 25, category_id: 'd', name: 'كومبو ناشفل تشيكن', description: '(( خس - خيار مخلل - قطعة تشيكن ناشفل - كريمي صوص - ٢ موتزريلا استكس - قطعة تركي - شيدر صوص )) + كرينكل فرايز + بيج كولا + ٢ قطعة دره حلو', price_single: 180, price_double: 220, image_url: 'https://i.postimg.cc/x13mPTtd/Whats-App-Image-2025-09-14-at-01-53-12-b7553c7c.jpg', available: true, featured: true },
+  { id: 1,  category_id: 'a', name: 'أوريجينال برجر', description: 'قطعة لحمة صافي 150جم - خس - خيار مخلل - شيدر صوص - صوص من اختيارك', price_single: 115, price_double: 155, image_url: 'https://i.postimg.cc/hGz6dkKn/IMG-20250826-WA0037.jpg', available: true, featured: true },
+  { id: 2,  category_id: 'a', name: 'موتزريلا برجر', description: 'قطعة لحمة صافي 150جم - خس - خيار مخلل - صوص - موتزريلا', price_single: 125, price_double: 165, image_url: 'https://i.postimg.cc/m23bcF8j/IMG-20250826-WA0024.jpg', available: true, featured: false },
+  { id: 3,  category_id: 'a', name: 'سبايسي برجر', description: 'قطعة لحمة صافي 150جم - خس - خيار مخلل - صوص - مايونيز اسبايسي - هالبينو', price_single: 115, price_double: 155, image_url: 'https://i.postimg.cc/5NmV9W2k/IMG-20250826-WA0031.jpg', available: true, featured: false },
+  { id: 4,  category_id: 'a', name: 'تركي برجر', description: 'قطعة لحمة صافي 150جم محشيه موتزريلا - خس - خيار مخلل - شيدر صوص - روز صوص - 2 أصابع موتزريلا استكس - شريحة تركي مدخن مشويه', price_single: 175, price_double: 215, image_url: 'https://i.postimg.cc/mZJ4py68/IMG-20250826-WA0005.jpg', available: true, featured: false },
+  { id: 5,  category_id: 'a', name: 'بيكون برجر', description: 'قطعة لحمة صافي 150جم محشيه موتزريلا - خس - خيار مخلل - شيدر صوص - بيج تاستي صوص - 2 أصابع موتزريلا استكس - شريحة بيكون', price_single: 175, price_double: 215, image_url: 'https://i.postimg.cc/ry5qcKsC/IMG-20250827-WA0018.jpg', available: true, featured: false },
+  { id: 6,  category_id: 'a', name: 'أقوي ميكس', description: 'قطعة برجر ع الفحم 150جم - قطعة فراخ فرايد تشيكن - خس - خيار مخلل - 2 موتزريلا استكس - صوص شيدر', price_single: 220, price_double: null, image_url: 'https://i.postimg.cc/05d3Dd1z/IMG-20250826-WA0044.jpg', available: true, featured: true },
+  { id: 7,  category_id: 'c', name: 'ميكس تشيز برجر', description: 'قطعة لحمة صافي 150جم محشيه موتزريلا وامريكان تشيز - خيار مخلل - خس - شيدر صوص - تكساس صوص', price_single: 185, price_double: 225, image_url: 'https://i.postimg.cc/4xxGzP5B/IMG-20250827-WA0020.jpg', available: true, featured: true },
+  { id: 8,  category_id: 'c', name: 'كرمليز مشروم برجر', description: 'قطعة لحمة صافي 150جم محشيه موتزريلا - خس - خيار مخلل - شيدر صوص - مشروم - ببروني - بصل مكرمل', price_single: 185, price_double: 225, image_url: 'https://i.postimg.cc/WbTBHYwm/IMG-20250826-WA0034.jpg', available: true, featured: true },
+  { id: 9,  category_id: 'c', name: 'دوريتوس برجر', description: 'قطعة لحمة صافي 150جم محشيه موتزريلا - خيار مخلل - خس - شيدر صوص - تاستي صوص - 2 أصابع موتزريلا استكس', price_single: 185, price_double: 225, image_url: 'https://i.postimg.cc/HxPmgwWW/IMG-20250826-WA0003.jpg', available: true, featured: true },
+  { id: 10, category_id: 'c', name: 'بي بي تو برجر', description: 'قطعة لحمة صافي 150جم محشيه موتزريلا و بيكون - خس - خيار مخلل - شيدر صوص - بي بي تو صوص', price_single: 175, price_double: 215, image_url: 'https://i.postimg.cc/PJ4RHhQW/IMG-20250826-WA0042.jpg', available: true, featured: true },
+  { id: 11, category_id: 'b', name: 'بيج سماش', description: 'قطعة لحمة صافي 100جم - خس - خيار مخلل - صوص شيدر - صوص بيج تاستي', price_single: 115, price_double: 145, image_url: 'https://i.postimg.cc/52mwZG0G/IMG-20250827-WA0014.jpg', available: true, featured: true },
+  { id: 12, category_id: 'b', name: 'دينااميت سماش', description: 'قطعة لحمة صافي 100جم - خس - خيار مخلل - بصل مكرمل - صوص شيدر - هالبينو', price_single: 130, price_double: 160, image_url: 'https://i.postimg.cc/RFwYPw3b/IMG-20250826-WA0041.jpg', available: true, featured: true },
+  { id: 13, category_id: 'b', name: 'سبشيال سماش', description: 'قطعة لحمة صافي 100جم - خس - خيار مخلل - صوص شيدر - صوص تكساس - 2 أصابع موتزريلا استكس', price_single: 135, price_double: 165, image_url: 'https://i.postimg.cc/bNnh7S78/IMG-20250826-WA0002.jpg', available: true, featured: false },
+  { id: 14, category_id: 'd', name: 'أوريجنال تشيكن', description: 'فرايد تشيكن - خس - خيار مخلل - صوص شيدر - صوص من اختيارك', price_single: 100, price_double: 140, image_url: 'https://i.postimg.cc/3J7YwYDM/IMG-20250827-WA0021.jpg', available: true, featured: false },
+  { id: 15, category_id: 'd', name: 'سبايسي تشيكن', description: 'خس - خيار مخلل - قطعة فرايد تشيكن - صوص شيدر - سبايسي مايونيز - هالبينو', price_single: 100, price_double: 140, image_url: 'https://i.postimg.cc/kXc96zx2/IMG-20250827-WA0019.jpg', available: true, featured: false },
+  { id: 16, category_id: 'd', name: 'شيلي تشيكن', description: 'قطعة فرايد تشيكن - خس - خيار مخلل - صوص شيدر - صوص شيلي - 2 أصابع موتزريلا', price_single: 155, price_double: 195, image_url: 'https://i.postimg.cc/tg80vXB7/IMG-20250826-WA0033.jpg', available: true, featured: false },
+  { id: 17, category_id: 'd', name: 'رانش تشيكن', description: 'قطعة فرايد تشيكن - خس - خيار مخلل - 4 قطع ببروني مشوي - صوص شيدر - 2 أصابع موتزريلا استكس', price_single: 155, price_double: 195, image_url: 'https://i.postimg.cc/26j9Cy20/Whats-App-Image-2025-08-27-at-01-21-33-a13a0fa5.jpg', available: true, featured: false },
+  { id: 18, category_id: 'd', name: 'تركي تشيكن', description: 'فرايد تشيكن - خس - خيار مخلل - صوص شيدر - صوص تاستي - 2 أصابع موتزريلا استكس', price_single: 155, price_double: 195, image_url: 'https://i.postimg.cc/mg6KhLfV/IMG-20250826-WA0038.jpg', available: true, featured: false },
+  { id: 19, category_id: 'd', name: 'روز تشيكن', description: 'فرايد تشيكن - خس - خيار مخلل - صوص شيدر - روز صوص - 2 أصابع موتزريلا استكس', price_single: 155, price_double: 195, image_url: 'https://i.postimg.cc/26PHhGCK/Whats-App-Image-2025-08-27-at-01-26-13-e52075d5.jpg', available: true, featured: false },
+  { id: 20, category_id: 'e', name: '2 قطعه استربس حار', description: '', price_single: 65, price_double: null, image_url: 'https://i.postimg.cc/LX12JsTS/IMG-20250827-WA0016.jpg', available: true, featured: false },
+  { id: 21, category_id: 'e', name: 'بطاطس', description: '', price_single: 55, price_double: null, image_url: 'https://i.postimg.cc/6qnpnBCs/Whats-App-Image-2025-08-28-at-17-13-26-94119853.jpg', available: true, featured: false },
+  { id: 22, category_id: 'e', name: 'بطاطس جبنه', description: '', price_single: 70, price_double: null, image_url: 'https://i.postimg.cc/QxXJNhTm/IMG-20250826-WA0064-1.jpg', available: true, featured: false },
+  { id: 23, category_id: 'e', name: 'بطاطس جبنه هالبينو', description: '', price_single: 80, price_double: null, image_url: 'https://i.postimg.cc/PqVJk3d7/Whats-App-Image-2025-08-28-at-17-11-24-68b1107c.jpg', available: true, featured: false },
+  { id: 24, category_id: 'e', name: 'بطاطس جبنه استربس', description: '', price_single: 95, price_double: null, image_url: 'https://i.postimg.cc/d1z0hhkm/Whats-App-Image-2025-08-28-at-17-12-44-fa7a1fbb.jpg', available: true, featured: false },
+  { id: 26, category_id: 'e', name: 'بطاطس سماش شيدر', description: '', price_single: 105, price_double: null, image_url: 'https://i.postimg.cc/Pxfkhth1/Whats-App-Image-2025-12-29-at-7-50-05-PM.jpg', available: true, featured: false },
+]
